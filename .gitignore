@@ -1,4 +1,6 @@
 
 # ignore autoload folder
 autoload/*
+autoload/
+/autoload
 autoload
