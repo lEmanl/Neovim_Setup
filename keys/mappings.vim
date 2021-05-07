@@ -1,3 +1,7 @@
+
+" switches off highlighting for current search on second enter
+nnoremap <CR> :nohlsearch<CR><CR>
+
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
@@ -42,3 +46,4 @@ nnoremap <C-l> <C-w>l
 
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
+
