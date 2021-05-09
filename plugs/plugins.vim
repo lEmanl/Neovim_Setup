@@ -9,25 +9,36 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
+   " Better Syntax Support
+   Plug 'sheerun/vim-polyglot'
 
-    " File Explorer
-    Plug 'scrooloose/NERDTree'
-    
-    " Auto pairs for '(' '[' '{'
-    Plug 'jiangmiao/auto-pairs'
+   " File Explorer
+   Plug 'scrooloose/NERDTree'
 
-    " Themes
-    Plug 'joshdick/onedark.vim'
+   " Auto pairs for '(' '[' '{'
+   Plug 'jiangmiao/auto-pairs'
 
-    " Status bar
-    Plug 'vim-airline/vim-airline'
-    Plug 'vim-airline/vim-airline-themes'
+   " Themes
+   " Plug 'joshdick/onedark.vim'
+   " Plug 'ayu-theme/ayu-vim'
+   Plug 'tomasiser/vim-code-dark'
+   " Plug 'sonph/onehalf', { 'rtp': 'vim' }
+   " Plug 'drewtempelmeyer/palenight.vim'
+   " Plug '1612492/github.vim'
 
-    " Autocompletion
-    Plug 'neovim/nvim-lspconfig'
-    Plug 'hrsh7th/nvim-compe'
+   " Tree sitter for better highlighting
+   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
-    call plug#end()
+   " Indent Line
+   " Plug 'Yggdroot/indentline'
+
+   " Status bar
+   Plug 'vim-airline/vim-airline'
+   Plug 'vim-airline/vim-airline-themes'
+
+   " Autocompletion
+   Plug 'neovim/nvim-lspconfig'
+   Plug 'hrsh7th/nvim-compe'
+
+   call plug#end()
 

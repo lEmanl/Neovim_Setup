@@ -2,7 +2,7 @@
 " set leader key
 let g:mapleader = "\<Space>"
 
-      syntax enable				      " Enables syntax highlighting
+syntax enable				      " Enables syntax highlighting
 set hidden			                  " Required to keep multiple buffers open
 set nowrap                          " Do not wrap text
 set encoding=utf-8                  " set enconding
